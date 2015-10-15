@@ -1,0 +1,17 @@
+body{
+	background-color: green;
+	font-family: Georgia;
+}
+
+h1{
+	text-align: center;
+}
+.nav{
+	display: inline;
+}
+ul{
+	list-style-type: none;
+	display: inline;
+}
+.section{
+}
