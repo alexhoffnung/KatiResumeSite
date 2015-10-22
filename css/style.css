@@ -25,19 +25,30 @@ h1{
 	float: left;
 	max-height: 320px;
 	max-width: 270px;
+	margin-right: 15px;
 }
 .bigPic img {
     width: 100%;
     height: auto;
     margin-top: -100px;
 }
+.meetKati{
+	padding: 0px 0px 300px 0px;
+	text-align: left;
+}
+.meetKati h2{
+	text-align: left;
+}
+h2{
+	text-align: center;
+}
+.section{
+	padding-bottom: 50px;
+}
 .navi{
 	/*border-bottom: solid #6E6E6E 3px;*/
 	padding-bottom: 40px;
 	padding-top: 100px;
-	text-align: center;
-}
-h2{
 	text-align: center;
 }
 /*Align Interests to display in the center third */
@@ -46,21 +57,10 @@ div.subnav {
     display: 33%;
 }
 /* Create space above and below interest table */
-.sectionInterest{
-	padding: 20px 20px 0px 20px;
-	text-align: center;
-}
-span{
+
+a {
 	padding-bottom: 50px;
 }
-/* Create space between columns of interest table */
-TD{
-	padding-right: 3em; 
-}
-/* Align interest points for visual appeal */
-TR:last-child TD {
-	text-align: left;
-	vertical-align: top;
-}
 
-}
+
+
