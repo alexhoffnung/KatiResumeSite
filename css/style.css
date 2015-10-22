@@ -4,19 +4,31 @@ body{
 }
 .container{
 	background-color: #FAFAFA;
-	padding: 0px 25px 20px 25px;
+	padding: 0px 75px 0px 75px;
 	text-align: center;
 
 }
 table{
-	width: 100%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 h1{
 	text-align: center;
 	font-size: 60px;
-	color: #6E6E6E;
-	/* border-bottom: solid #6E6E6E 3px; */
+	color: #6E6E6E; 
+	padding-bottom: 0px;
+	padding-top: 20px;
+}
+.navi{
+	border-bottom: solid #6E6E6E 3px;
+	padding-bottom: 40px;
+	padding-top: 0px;
+	text-align: center;
+}
+h2{
+	text-align: center;
 }
 /*Align Interests to display in the center third */
 div.subnav {
@@ -25,7 +37,11 @@ div.subnav {
 }
 /* Create space above and below interest table */
 .sectionInterest{
-	padding: 0px 20px 0px 100px;
+	padding: 20px 20px 0px 20px;
+	text-align: center;
+}
+span{
+	padding-bottom: 50px;
 }
 /* Create space between columns of interest table */
 TD{
@@ -35,4 +51,6 @@ TD{
 TR:last-child TD {
 	text-align: left;
 	vertical-align: top;
+}
+
 }
