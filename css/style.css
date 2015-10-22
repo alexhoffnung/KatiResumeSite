@@ -21,8 +21,18 @@ h1{
 	padding-bottom: 0px;
 	padding-top: 20px;
 }
+.bigPic{
+	float: left;
+	max-height: 320px;
+	max-width: 270px;
+}
+.bigPic img {
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+}
 .navi{
-	border-bottom: solid #6E6E6E 3px;
+	/*border-bottom: solid #6E6E6E 3px;*/
 	padding-bottom: 40px;
 	padding-top: 0px;
 	text-align: center;
